@@ -11,3 +11,15 @@ h1 {
 }
 
 
+#listaUsuarios {
+  display: flex;
+  
+}
+
+h3 {
+  color: red;
+}
+
+img {
+  width: 100px;
+}
