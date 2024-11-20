@@ -29,12 +29,12 @@ function obtenerUsuarios()  {
             const datosUsuario = {...usuario,...nuevosDatos};
             console.log(datosUsuario);
             imprimirUsuario.innerHTML = `<div class="tarjeta">
-            <div class="cuadro-datos">
             <img src="${datosUsuario.imagen}"/>
-            Nombre: ${datosUsuario.name}
-            Edad: ${datosUsuario.edad}
-            Nick: ${datosUsuario.username}
-            Telefono: ${datosUsuario.phone}
+            <div class="cuadro-datos">
+            Nombre: ${datosUsuario.name}<br>
+            Edad: ${datosUsuario.edad}<br>
+            Nick: ${datosUsuario.username}<br>
+            Telefono: ${datosUsuario.phone}<br>
             Email: ${datosUsuario.email}</div>
             Compañía: ${datosUsuario.company.name}
             Direccion: ${datosUsuario.direccion}</div>`

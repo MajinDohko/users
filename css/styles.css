@@ -13,13 +13,35 @@ h1 {
 
 #listaUsuarios {
   display: flex;
-  
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
-
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 420px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  border: 1px solid #cbbaba;
+  border-radius: 10px;
+}
+.cuadro-datos{
+  display: flex;
+  flex-direction: row;
+  width: 68%;
+  border: 1px solid #cbbaba;
+  border-radius: 10px;
+}
 h3 {
   color: red;
 }
 
 img {
   width: 100px;
+  position: absolute;
+  margin-bottom: 60px;
+  margin-left: 310px;
 }
